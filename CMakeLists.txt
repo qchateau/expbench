@@ -31,3 +31,9 @@ target_link_libraries(
         benchmark::benchmark
         benchmark::benchmark_main
 )
+
+
+add_executable(
+    csv
+    csv.cpp
+)
