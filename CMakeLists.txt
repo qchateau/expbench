@@ -31,6 +31,10 @@ target_link_libraries(
         benchmark::benchmark
         benchmark::benchmark_main
 )
+target_compile_options(
+    expbench
+    PRIVATE -march=native
+)
 
 
 add_executable(
