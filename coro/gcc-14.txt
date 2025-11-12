@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------
+Benchmark                 Time             CPU   Iterations UserCounters...
+---------------------------------------------------------------------------
+BM_even_callback        158 ns          158 ns      4340812 items_per_second=3.15729G/s
+BM_even_coro           2270 ns         2270 ns       318794 items_per_second=220.257M/s
+-----------------------------------------------------------------------------
+Benchmark                   Time             CPU   Iterations UserCounters...
+-----------------------------------------------------------------------------
+BM_tree_callback         1928 ns         1928 ns       360180 items_per_second=519.277M/s
+BM_tree_coro_naive      55335 ns        55334 ns        12680 items_per_second=18.0902M/s
+BM_tree_coro            50097 ns        50095 ns        10000 items_per_second=19.982M/s
